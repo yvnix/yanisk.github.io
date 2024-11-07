@@ -245,7 +245,7 @@ header .scroll-arrow a:hover {
   }
 }
 .section1 .projects-img .project1 .img {
-  background: url(assets/img/resto-header.png) center/cover;
+  background: url(../../../assets/img/resto-header.png) center/cover;
   height: 400px;
   border: 2px solid whitesmoke;
   border-radius: 15px;
@@ -274,7 +274,7 @@ header .scroll-arrow a:hover {
   }
 }
 .section1 .projects-img .project2 .img {
-  background: url(assets/img/montagne-header.png) center/cover;
+  background: url(../../../assets/img/montagne-header.png) center/cover;
   height: 400px;
   border: 2px solid whitesmoke;
   border-radius: 15px;
@@ -350,7 +350,7 @@ header .scroll-arrow a:hover {
   background: #56468B;
 }
 .section1 .projects-img .project3 .img {
-  background: url(assets/img/template_torkedon_app.png) center/cover;
+  background: url(../../../assets/img/template_torkedon_app.png) center/cover;
   height: 600px;
   max-width: 900px;
   margin: 0 auto;
@@ -447,7 +447,7 @@ header .scroll-arrow a:hover {
   }
 }
 .section1 .design .logos-part1 .logo1 {
-  background: url(assets/img/charte-2.png) center/cover;
+  background: url(../../../assets/img/trokedon_logo_charte.png) center/cover;
   height: 300px;
   width: 100%;
 }
@@ -474,7 +474,7 @@ header .scroll-arrow a:hover {
   }
 }
 .section1 .design .logos-part2 .logo2 {
-  background: url(assets/img/yk_logo_charte.png) center/cover;
+  background: url(../../../assets/img/yk_logo_charte.png) center/cover;
   height: 170px;
   width: 50%;
   margin: 0 auto;
@@ -503,7 +503,7 @@ header .scroll-arrow a:hover {
   }
 }
 .section1 .design .logos-part3 .logo3 {
-  background: url(assets/img/dataperpane_logo_charte.png) center/cover;
+  background: url(../../../assets/img/dataperpane_logo_charte.png) center/cover;
   height: 200px;
   width: 100%;
   margin: 0 auto;

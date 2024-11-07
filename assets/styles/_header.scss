@@ -1,19 +1,18 @@
 header {
 
-    // min-height: 100vh
+    min-height: 100vh;
+
 
     img {
         height: 30px;
     }
 
     nav {
-        // padding: 15px 0;
         display: flex;
         justify-content: space-around;
         max-width: 500px;
         margin: 30px auto;
         align-items: center;
-        // background: #392d5757;
         border-radius: 10px;
         
         a {
@@ -30,15 +29,14 @@ header {
         display: grid;
         grid-template-columns: 70% 30%;
         max-width: 1000px;
-        margin: 0 auto;
-        // justify-items: end;
+        margin: 130px auto 20px;
         align-items: center;
-        height: 79vh;
+        // height: 79vh;
         padding: 0 20px;
 
         @media screen and (max-width: 715px) {
             display: block;
-            height: 100%;
+            margin: 0 auto;
             
         }
         
@@ -126,22 +124,6 @@ header {
                 margin: 30px auto;
             }
             
-        }
-    }
-    .scroll-arrow {
-        text-align: center;
-        padding: 0 0 80px;
-
-        @media screen and (max-width: 950px)  {
-            display: none;
-        }
-        
-        a {
-            transition: 0.2s;
-            
-            &:hover {
-                color: #BAA7FF;
-            }
         }
     }
     

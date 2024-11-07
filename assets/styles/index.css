@@ -24,6 +24,9 @@ a, a:visited {
   text-decoration: none;
 }
 
+header {
+  min-height: 100vh;
+}
 header img {
   height: 30px;
 }
@@ -53,17 +56,16 @@ header .hero {
   display: grid;
   grid-template-columns: 70% 30%;
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 130px auto 20px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 79vh;
   padding: 0 20px;
 }
 @media screen and (max-width: 715px) {
   header .hero {
     display: block;
-    height: 100%;
+    margin: 0 auto;
   }
 }
 header .hero .hero-text {
@@ -150,22 +152,6 @@ header .hero .img {
     width: 75%;
     margin: 30px auto;
   }
-}
-header .scroll-arrow {
-  text-align: center;
-  padding: 0 0 80px;
-}
-@media screen and (max-width: 950px) {
-  header .scroll-arrow {
-    display: none;
-  }
-}
-header .scroll-arrow a {
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
-}
-header .scroll-arrow a:hover {
-  color: #BAA7FF;
 }
 
 .section1 {
@@ -321,7 +307,7 @@ header .scroll-arrow a:hover {
 }
 @media screen and (max-width: 1060px) {
   .section1 .projects-img .project3 .text-btn .text p {
-    padding: 0 40px;
+    padding: 0px;
   }
 }
 .section1 .projects-img .project3 .text-btn .btn {
@@ -518,30 +504,32 @@ header .scroll-arrow a:hover {
 footer {
   background: #291F43;
   height: 200px;
-  display: grid;
-  grid-template-columns: 50% 50%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  justify-items: center;
-}
-footer .footer-text {
-  padding: 40px;
-}
-footer .footer-text span {
-  padding: 20px;
 }
 footer .footer-icons {
   font-size: 1.5rem;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 90px;
+  max-width: 200px;
 }
 footer .footer-icons a {
   -webkit-transition: 0.2s;
   transition: 0.2s;
-  padding: 40px;
+  padding: 0px;
 }
 footer .footer-icons a:hover {
   color: #BAA7FF;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }/*# sourceMappingURL=index.css.map */

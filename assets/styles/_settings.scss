@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "popp";
+    src: url(/assets/fonts/Poppins-Regular.ttf);
+}
+
+$font1: popp, sans-serif;
+$white: whitesmoke;
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    // background: #14121F;
+    background: #1B1525;
+    color: $white;
+    font-family: $font1;
+    // position: relative;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a, a:visited {
+    color: $white;
+    text-decoration: none;
+}

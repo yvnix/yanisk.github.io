@@ -14,12 +14,6 @@
             padding-bottom: 0;
         }
 
-        &:after, &:before {
-            @media screen and (max-width: 500px) {
-                display: none; 
-            }
-        }
-
         &:after {
             content: "";
             position: absolute;
@@ -28,6 +22,10 @@
             transform: translate(50%, 25px);
             max-width: 1200px;
             border-radius: 10px;
+
+            @media screen and (max-width: 500px) {
+                width: 10%;
+            }
         }
         &:before {
             content: "";
@@ -37,6 +35,10 @@
             transform: translate(-150%, 25px);
             max-width: 1200px;
             border-radius: 10px;
+
+            @media screen and (max-width: 500px) {
+                width: 10%;
+            }
         }
 
     }
@@ -58,6 +60,10 @@
         p {
             padding: 10px 0;
             text-align: justify;
+
+            @media screen and (max-width: 500px) {
+                font-size: 0.9rem;
+            }
         }
         i {
             font-size: 2rem;
@@ -119,7 +125,6 @@
             .img {
                 background: url(../../assets/img/montagne-header.png) center/cover;
                 height: 400px;
-                // box-shadow: 11px 9px 5px 0px #291F43;
                 border: 2px solid $white;
                 border-radius: 15px;
 
@@ -130,6 +135,12 @@
         }
         .project3 {
             padding-bottom: 0px;
+
+            h2 {
+                @media screen and (max-width: 500px) {
+                    max-height: 30px;
+                }
+            }
 
             .text-btn {
 
@@ -152,10 +163,11 @@
                  
                     h3 {
                         text-align: left;
+                        max-height: 50px;
     
                         @media screen and (max-width: 1060px) {
                             display: block;
-                            padding: 0 40px 0px;
+                            padding: 0 40px 0 0;
                         }
                     }
                     p {
@@ -279,6 +291,12 @@
     .design {
         max-width: 1000px;
         margin: 0 auto;
+
+        h2 {
+            @media screen and (max-width: 500px) {
+                max-height: 20px;
+            }
+        }
         
         p {
             text-align: justify;
@@ -306,11 +324,6 @@
                 background: url(../../assets/img/trokedon_logo_charte.png) center/cover;
                 height: 300px;
                 width: 100%;
-
-                @media screen and (max-width: 560px) {
-                    height: 300px;
-                    
-                }
             }
         
         }

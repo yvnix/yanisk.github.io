@@ -37,7 +37,8 @@ header nav {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   max-width: 500px;
-  margin: 30px auto;
+  margin: 0px auto;
+  padding: 30px 0;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -94,7 +95,13 @@ header .hero .hero-text h1 {
 }
 @media screen and (max-width: 715px) {
   header .hero .hero-text h1 {
-    font-size: 2rem;
+    font-size: 2.2rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  header .hero .hero-text h1 {
+    font-size: 1.5rem;
+    letter-spacing: 0;
   }
 }
 header .hero .hero-text h1 span {
@@ -108,6 +115,12 @@ header .hero .hero-text h3 {
 @media screen and (max-width: 715px) {
   header .hero .hero-text h3 {
     font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  header .hero .hero-text h3 {
+    font-size: 1.1rem;
+    letter-spacing: 0;
   }
 }
 header .hero .hero-text p {
@@ -170,11 +183,6 @@ header .hero .img {
     padding-bottom: 0;
   }
 }
-@media screen and (max-width: 500px) {
-  .section1 h2:after, .section1 h2:before {
-    display: none;
-  }
-}
 .section1 h2:after {
   content: "";
   position: absolute;
@@ -185,6 +193,11 @@ header .hero .img {
   max-width: 1200px;
   border-radius: 10px;
 }
+@media screen and (max-width: 500px) {
+  .section1 h2:after {
+    width: 10%;
+  }
+}
 .section1 h2:before {
   content: "";
   position: absolute;
@@ -194,6 +207,11 @@ header .hero .img {
           transform: translate(-150%, 25px);
   max-width: 1200px;
   border-radius: 10px;
+}
+@media screen and (max-width: 500px) {
+  .section1 h2:before {
+    width: 10%;
+  }
 }
 .section1 .projects-img {
   max-width: 1000px;
@@ -211,6 +229,11 @@ header .hero .img {
 .section1 .projects-img p {
   padding: 10px 0;
   text-align: justify;
+}
+@media screen and (max-width: 500px) {
+  .section1 .projects-img p {
+    font-size: 0.9rem;
+  }
 }
 .section1 .projects-img i {
   font-size: 2rem;
@@ -284,6 +307,11 @@ header .hero .img {
 .section1 .projects-img .project3 {
   padding-bottom: 0px;
 }
+@media screen and (max-width: 500px) {
+  .section1 .projects-img .project3 h2 {
+    max-height: 30px;
+  }
+}
 .section1 .projects-img .project3 .text-btn {
   display: grid;
   grid-template-columns: 60% 40%;
@@ -309,11 +337,12 @@ header .hero .img {
 }
 .section1 .projects-img .project3 .text-btn .text h3 {
   text-align: left;
+  max-height: 50px;
 }
 @media screen and (max-width: 1060px) {
   .section1 .projects-img .project3 .text-btn .text h3 {
     display: block;
-    padding: 0 40px 0px;
+    padding: 0 40px 0 0;
   }
 }
 @media screen and (max-width: 1060px) {
@@ -425,6 +454,11 @@ header .hero .img {
   max-width: 1000px;
   margin: 0 auto;
 }
+@media screen and (max-width: 500px) {
+  .section1 .design h2 {
+    max-height: 20px;
+  }
+}
 .section1 .design p {
   text-align: justify;
 }
@@ -454,11 +488,6 @@ header .hero .img {
   background: url(../../assets/img/trokedon_logo_charte.png) center/cover;
   height: 300px;
   width: 100%;
-}
-@media screen and (max-width: 560px) {
-  .section1 .design .logos-part1 .logo1 {
-    height: 300px;
-  }
 }
 .section1 .design .logos-part2 {
   display: grid;

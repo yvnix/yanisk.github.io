@@ -164,6 +164,17 @@ header .hero .img {
   padding: 0 40px 20px;
   color: #BAA7FF;
 }
+@media screen and (max-width: 500px) {
+  .section1 h2 {
+    font-size: 2rem;
+    padding-bottom: 0;
+  }
+}
+@media screen and (max-width: 500px) {
+  .section1 h2:after, .section1 h2:before {
+    display: none;
+  }
+}
 .section1 h2:after {
   content: "";
   position: absolute;
@@ -340,6 +351,13 @@ header .hero .img {
   height: 600px;
   max-width: 900px;
   margin: 0 auto;
+}
+@media screen and (max-width: 500px) {
+  .section1 .projects-img .project3 .img {
+    height: 500px;
+    max-width: 300px;
+    margin: 0 auto;
+  }
 }
 .section1 .contact .form {
   background: none;

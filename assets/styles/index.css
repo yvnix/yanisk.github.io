@@ -78,7 +78,13 @@ header .hero .hero-text {
   }
 }
 header .hero .hero-text h2 {
+  letter-spacing: 2px;
   padding: 0 0 0 60px;
+}
+@media screen and (max-width: 500px) {
+  header .hero .hero-text h2 {
+    font-size: 1.3rem;
+  }
 }
 header .hero .hero-text h2:before {
   content: "";
@@ -87,6 +93,12 @@ header .hero .hero-text h2:before {
   width: 40px;
   -webkit-transform: translate(-60px, 16px);
           transform: translate(-60px, 16px);
+}
+@media screen and (max-width: 500px) {
+  header .hero .hero-text h2:before {
+    -webkit-transform: translate(-60px, 14px);
+            transform: translate(-60px, 14px);
+  }
 }
 header .hero .hero-text h1 {
   font-size: 3.56rem;
@@ -162,7 +174,14 @@ header .hero .img {
 @media screen and (max-width: 715px) {
   header .hero .img {
     height: 400px;
-    width: 75%;
+    width: 70%;
+    margin: 30px auto;
+  }
+}
+@media screen and (max-width: 500px) {
+  header .hero .img {
+    height: 400px;
+    width: 90%;
     margin: 30px auto;
   }
 }
@@ -462,9 +481,11 @@ header .hero .img {
 .section1 .design p {
   text-align: justify;
 }
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 500px) {
   .section1 .design p {
-    display: none;
+    margin: 0 40px;
+    font-size: 0.9rem;
+    margin-bottom: 40px;
   }
 }
 .section1 .design .logos-part1 {
@@ -478,10 +499,19 @@ header .hero .img {
           align-items: center;
   margin: 40px;
 }
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 500px) {
   .section1 .design .logos-part1 {
     display: block;
-    margin: 0;
+    margin: 80px 40px 0;
+    border-radius: 20px;
+    background: #291F43;
+    padding-bottom: 0px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .section1 .design .logos-part1 .logo-text {
+    margin-bottom: 40px;
+    padding-bottom: 30px;
   }
 }
 .section1 .design .logos-part1 .logo1 {
@@ -500,10 +530,15 @@ header .hero .img {
           align-items: center;
   margin: 40px;
 }
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 500px) {
   .section1 .design .logos-part2 {
     display: block;
     margin: 0;
+    max-height: 300px;
+    background: #291F43;
+    margin: 80px 40px;
+    border-radius: 20px;
+    padding: 40px 0 20px;
   }
 }
 .section1 .design .logos-part2 .logo2 {
@@ -512,10 +547,11 @@ header .hero .img {
   width: 50%;
   margin: 0 auto;
 }
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 500px) {
   .section1 .design .logos-part2 .logo2 {
     display: block;
-    height: 250px;
+    height: 100px;
+    padding-bottom: 0px;
   }
 }
 .section1 .design .logos-part3 {
@@ -529,10 +565,14 @@ header .hero .img {
           align-items: center;
   margin: 40px;
 }
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 500px) {
   .section1 .design .logos-part3 {
     display: block;
     margin: 0;
+    background: #291F43;
+    margin: 40px;
+    border-radius: 20px;
+    padding-bottom: 50px;
   }
 }
 .section1 .design .logos-part3 .logo3 {
@@ -541,7 +581,7 @@ header .hero .img {
   width: 100%;
   margin: 0 auto;
 }
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 500px) {
   .section1 .design .logos-part3 .logo3 {
     display: block;
     height: 300px;

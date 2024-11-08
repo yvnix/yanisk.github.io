@@ -96,11 +96,6 @@
                 // box-shadow: 11px 9px 5px 0px #291F43;
                 border: 2px solid $white;
                 border-radius: 15px;
-                // transition: 0.4s;
-
-                // &:hover {
-                //     transform: scale(1.2);
-                // }
 
                 @media screen and (max-width: 1060px) {
                     margin-bottom: 40px;
@@ -301,8 +296,10 @@
         p {
             text-align: justify;
 
-            @media screen and (max-width: 560px) {
-                display: none;
+            @media screen and (max-width: 500px) {
+                margin: 0 40px;
+                font-size: 0.9rem;
+                margin-bottom: 40px;
                 
             }
         }
@@ -314,10 +311,22 @@
             align-items: center;
             margin: 40px;
 
-            @media screen and (max-width: 560px) {
+            @media screen and (max-width: 500px) {
                 display: block;
-                margin: 0;
+                margin: 80px 40px 0;
+                border-radius: 20px;
+                background: #291F43;
+                padding-bottom: 0px;
 
+            }
+
+            .logo-text {
+
+                @media screen and (max-width: 500px) {
+                    margin-bottom: 40px;
+                    padding-bottom: 30px;
+    
+                }
             }
 
             .logo1 {
@@ -335,9 +344,14 @@
             align-items: center;
             margin: 40px;
 
-            @media screen and (max-width: 560px) {
+            @media screen and (max-width: 500px) {
                 display: block;
                 margin: 0;
+                max-height: 300px;
+                background: #291F43;
+                margin: 80px 40px;
+                border-radius: 20px;
+                padding: 40px 0 20px;
             }
 
 
@@ -347,9 +361,10 @@
                 width: 50%;
                 margin: 0 auto;
 
-                @media screen and (max-width: 560px) {
+                @media screen and (max-width: 500px) {
                     display: block;
-                    height: 250px;
+                    height: 100px;
+                    padding-bottom: 0px;
                 }
             }
         }
@@ -361,9 +376,14 @@
             align-items: center;
             margin: 40px;
 
-            @media screen and (max-width: 560px) {
+            @media screen and (max-width: 500px) {
                 display: block;
                 margin: 0;
+                background: #291F43;
+                margin: 40px;
+                border-radius: 20px;
+                padding-bottom: 50px;
+
             }
 
             .logo3 {
@@ -372,7 +392,7 @@
                 width:100%;
                 margin: 0 auto;
 
-                @media screen and (max-width: 560px) {
+                @media screen and (max-width: 500px) {
                     display: block;
                     height: 300px;
                     
